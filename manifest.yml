@@ -1,0 +1,7 @@
+---
+applications:
+ - name: HelloServlet
+   random-route: true
+   path: target/HelloServlet.war
+   memory: 512M
+   instances: 1
